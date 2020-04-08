@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "flaskenv\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
+}

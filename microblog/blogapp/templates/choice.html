@@ -1,0 +1,11 @@
+{% extends "loggedin_base.html" %}
+
+{% block content %}
+	<p>You are logged in as {{user.username}}</p>
+	<p>By clicking the relevant link, please make a choice of:
+		<ul>
+			<li><a href="{{ url_for('post') }}">Write a micro post</a></li>
+			<li><a href="{{ url_for('profile') }}">Edit your profile</a></li>
+		</ul>
+	</p>
+{% endblock %}
